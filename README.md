@@ -2,7 +2,7 @@
 
 ✨ **Optimize your code review process** with an intelligent comment-cleaning tool. Make your comments cleaner and more professional.
 
-![Demo](https://ibb.co/WN5QnxfC) <!-- Replace with actual screenshot -->
+![Demo](/clear-commit-frontend/public/promo.png)
 
 ## 🚀 Features
 - **Automatic code cleanup:** Remove unnecessary comments and debug logs
