@@ -33,7 +33,7 @@ export function AuthProvider({ children }) {
             }
         } catch(error){
             console.error('Auth check failed:', error.response.data.message);
-            return { isAuthenticated: false, userRole: '' };
+            return { isAuthenticated: false, userRole: 'user' };
         }
     }, []);
     const checkFireBaseAuth = useCallback (() => {
