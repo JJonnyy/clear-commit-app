@@ -8,6 +8,13 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     server: isDev ? {
+      host: '0.0.0.0', // слушает все интерфейсы
+      port: 3003,      // порт, на котором запущен Vite
+      allowedHosts: [
+        'stage-dream.tech',
+        'www.stage-dream.tech',
+        'localhost'
+      ],
       proxy: {
         '/api': {
           target: env.VITE_API_URL || 'http://localhost:8000',
